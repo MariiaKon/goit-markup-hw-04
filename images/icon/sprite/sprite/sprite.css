@@ -1,0 +1,66 @@
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-client-logo1 {
+  width: 29px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-client-logo2 {
+  width: 25px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-client-logo3 {
+  width: 31px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-client-logo4 {
+  width: 60px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-client-logo5 {
+  width: 40px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.icon-client-logo6 {
+  width: 62px;
+  height: 32px;
+  background-position: -288px 0;
+}
+.icon-mail-icon {
+  width: 43px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.icon-phone-icon {
+  width: 20px;
+  height: 32px;
+  background-position: -480px 0;
+}
+.icon-instagram-icon {
+  width: 32px;
+  height: 32px;
+  background-position: -528px 0;
+}
+.icon-linkedin-icon {
+  width: 32px;
+  height: 32px;
+  background-position: -576px 0;
+}
+.icon-twitter-icon {
+  width: 32px;
+  height: 32px;
+  background-position: -624px 0;
+}
+.icon-facebook-icon {
+  width: 32px;
+  height: 32px;
+  background-position: -672px 0;
+}
+

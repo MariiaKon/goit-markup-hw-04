@@ -125,6 +125,16 @@ img {
 .list-item {
   list-style: none;
 }
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 
 /*styles for header*/
 .header {
@@ -178,14 +188,18 @@ img {
 .header .list-item:not(:first-child) {
   margin-left: 50px;
 }
-.header .studio-link,
-.header .portfolio-link {
+.header .current {
   color: var(--hover);
 }
 
 /*styles for hero-section*/
 .hero-section {
   background: var(--bg-dark);
+  background-image: url(../images/hero-bg.webp),
+    linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 .hero {
   min-height: 600px;
@@ -325,6 +339,7 @@ img {
   line-height: 1.1875;
   text-align: center;
   color: var(--text-grey);
+  margin-bottom: 16px;
 }
 .card {
   width: 270px;
