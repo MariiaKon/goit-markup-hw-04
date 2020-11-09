@@ -177,7 +177,7 @@ img {
   align-items: baseline;
 }
 .header .link {
-  display: flex;
+  display: block;
   padding: 32px 0px;
 }
 .nav .link {
@@ -191,7 +191,9 @@ img {
 }
 .header .current {
   color: var(--hover);
+  /*border-bottom: 3px solid var(--hover);*/
 }
+
 .mail-icon,
 .tel-icon {
   fill: currentColor;
@@ -551,6 +553,11 @@ img {
 .link:focus {
   color: var(--hover);
 }
+/*.nav-bar .link:hover,
+.nav-bar .link:active,
+.nav-bar .link:focus {
+  border-bottom: 3px solid var(--hover);
+}*/
 .order-button:hover,
 .order-button:active,
 .order-button:focus {
